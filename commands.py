@@ -1,6 +1,8 @@
 from random import randint as ri
 
 total_sweet = int(input('Введите количество конфет: '))
+while total_sweet <= 28:
+    total_sweet = int(input('Вы ввели неверное количество конфет. Попробуйте заново!'))
 take_sweet = 0
 player_sweet = 0
 bot_sweet = 0
