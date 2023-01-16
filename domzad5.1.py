@@ -25,7 +25,7 @@ while a >0:
             while igrok2 < 0 or igrok2 > 28 or igrok2 > a:
                 igrok2 = int(input('Вы берете неверное количество конфет! Попробуйте снова: '))
             a -= igrok2
-            q1 += igrok2
+            q2 += igrok2
             if a <= 28:
                 if igrok == 1:
                     print('Осталось ', a,' конфет, их забирает и побеждает:', name1)
